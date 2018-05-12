@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.container {
+  padding-top: 20px;
+  width: 700px; }
+  .container .table-header-top {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: 600; }
+  .container .table-header-bottom {
+    padding: 10px;
+    border-top: 1px solid #ccc; }
+  .container .table-row {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400; }
+  .container .table-row:nth-child(odd) {
+    background-color: #f0f0f0; }
+
+.logout-section {
+  padding: 10px;
+  text-align: right;
+  margin-right: 15%; }
+
+.has-error {
+  color: #ff6666;
+  font-size: 12px;
+  padding-top: 5px; }
